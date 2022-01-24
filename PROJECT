@@ -1,0 +1,16 @@
+domain: mcs.mail.ru
+layout:
+- ansible.sdk.operatorframework.io/v1
+plugins:
+  manifests.sdk.operatorframework.io/v2: {}
+  scorecard.sdk.operatorframework.io/v2: {}
+projectName: k8s-operator-in-an-hour
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  domain: mcs.mail.ru
+  group: ops
+  kind: Project
+  version: v1alpha1
+version: "3"

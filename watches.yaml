@@ -1,0 +1,8 @@
+---
+# Use the 'create api' subcommand to add watches to this file.
+- version: v1alpha1
+  group: ops.mcs.mail.ru
+  kind: Project
+  role: project
+  watchClusterScopedResources: true
+#+kubebuilder:scaffold:watch

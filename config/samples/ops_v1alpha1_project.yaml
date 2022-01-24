@@ -1,0 +1,16 @@
+apiVersion: ops.mcs.mail.ru/v1alpha1
+kind: Project
+metadata:
+  name: test
+spec:
+  members:
+    - p.petrov
+  environments:
+    - name: prod
+      resources:
+        requests:
+          cpu: 4
+          memory: 4Gi
+        limits:
+          cpu: 4
+          memory: 4Gi
