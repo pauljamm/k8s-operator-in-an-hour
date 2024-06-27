@@ -33,8 +33,8 @@ operator-sdk init --domain mcs.mail.ru --plugins ansible
 - Создаем апи нашего оператора
 
 ```bash
-opetator-sdk create api \
-    --groups ops \
+operator-sdk create api \
+    --group ops \
     --version v1alpha1 \
     --kind Project \
     --generate-role
